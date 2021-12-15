@@ -1,0 +1,23 @@
+<suite name="Clase 4">
+
+    <parameter name="tagname" value="h2"></parameter>
+    <parameter name="username" value="testing@qa.com"></parameter>
+    <parameter name="password" value="holamundo123"></parameter>
+
+    <groups>
+        <run>
+            <include name="successTest"></include>
+            <include name="failureTest"></include>
+        </run>
+    </groups>
+
+
+    <test name="Ejercicio Testng">
+        <classes>
+            <class name="clase4.NototionsTest"></class>
+        </classes>
+    </test>
+</suite>
+
+
+
